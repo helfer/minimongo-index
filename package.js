@@ -10,6 +10,7 @@ Package.onUse(function (api) {
   api.export('IdMap');
   api.export('IdSet');
   api.export('Index');
+  api.versionsFrom('1.1.0.2');
   api.use(['underscore', 'minimongo', 'ejson', 'id-map', 'ordered-dict']);
   api.addFiles([
     'minimongo-index.js',
